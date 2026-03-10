@@ -662,3 +662,50 @@ sip-ua
 sip-server ipv4:192.168.k.1
 
 
+
+
+----- extra manual typing
+
+
+@corebaba
+conf t
+	monitor session 1 source interface fa0/3,fa0/5,fa0/7
+	monitor session 1 destination interface fa0/1,fa0/9
+end
+
+conf t
+	no monitor session 1
+end
+
+
+----------- extra manual typing
+
+
+yersinia -G
+
+
+
+
+
+
+------------
+
+
+http://192.168.102.133/otrs/index.pl
+admin
+C1sc023
+
+
+http://192.168.102.133/otrs/customer.pl
+user1
+C1sc0123
+
+
+
+
+
+
+
+
+
+
